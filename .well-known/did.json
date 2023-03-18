@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:mvogiatzis.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:mvogiatzis.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:mvogiatzis.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "pfAR6TZaDL/iyUBOmdrAIy/1ZmNiis5zrVFuH4805pI=",
+        "y": "0nGC9a7kn4a6KBausSUKqdaHppbbSmHGR80nk0G4LJQ="
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:mvogiatzis.github.io#owner"
+  ],
+  "assertionMethod": [
+    "did:web:mvogiatzis.github.io#owner"
+  ]
+}
