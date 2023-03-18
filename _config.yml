@@ -1,0 +1,5 @@
+# Site settings
+title: Michael Vogiatzis
+fullname: Michael Vogiatzis
+# Build settings
+include: [".well-known"]
